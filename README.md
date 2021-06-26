@@ -6,4 +6,6 @@
 
 server : https://github.com/corgi-world/poolda-server
 
-![poster](https://github.com/corgi-world/poolda-client/blob/master/poolda-poster.png)
+<img src="./poolda-preview.gif" width="40%" />
+
+![poster](./poolda-poster.png)
