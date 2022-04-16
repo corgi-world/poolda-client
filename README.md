@@ -1,11 +1,42 @@
-연세대학교 HCI Lab Dream Academy Summer Camp 2019 과제
-<br/>
+# Poolda
 
-논문 : https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE10402876
-<br/>
+## 개요
 
-server : https://github.com/corgi-world/poolda-server
+- 감정인지강화를 위한 자연어 처리 기반 챗봇 서비스
+- 연세대학교 HCI Lab Dream Academy Summer Camp 2019 과제
 
-<img src="./poolda-preview.gif" width="40%" />
+## 서비스
 
-![poster](./poolda-poster.png)
+```
+감정표현불능증인 사람은 정서에 대한 정신적 표상을 구성하는 능력이 결핍되어 있기 때문에 본인의 정서를 언어화하지 못한다. 이러한 사람들이 겪는 감정표현 불능을 해소하는 데 도움을 주기 위해 해당 서비스를 개발하였다.
+
+1. 서비스를 처음 접속한 유저는 감정표현불능증 척도 테스트인 TAS-20을 통해 개인의 상태를 파악하게 된다.
+2. 유저는 본인 의지에 따라 챗봇 화면으로 이동하여 그들의 하루에 어떤 일이 있었는지 작성한다.
+3. 작성된 하루를 자연어 처리, 감정 분석 기술을 통해 유저의 감정 상태가 긍정적인지, 부정적인지 파악한다.
+4. 한국말 감정표현, 감정 형용사 72개를 유저의 감정 상태에 따라 우선순위를 정렬한다.
+5. 유저는 제안된 감정 형용사 중 본인의 감정 상태와 적합한 감정 형용사를 최대 3개까지 선택한다.
+6. 그 후 다른 유저의 하루를 전달받고 해당 유저가 느꼈을 감정 상태와 적합한 감정 형용사를 최대 3개까지 선택한다.
+7. 상기의 과정을 통해 다양한 감정표현을 접하게 함으로써 유저의 감정표현불능증을 완화시키고자 한다. 또한, 다른 사람의 입장에서 생각해보며 타인의 감정을 파악할 수 있는 힘을 기르도록 하였다.
+```
+
+## 사용 기술
+
+- Front-End
+  - React Native(Expo)
+- Back-End
+  - Node.js (Express)
+  - Google Cloud Platform
+  - AWS EC2
+
+## 개발 내용
+
+## 결과
+
+- 논문 : https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE10402876
+
+<br />
+
+<div style="display: flex; justify-content: space-around;">
+  <img src="./poolda-preview.gif" width="20%" />
+  <img src="./poolda-poster.png" width="30%" />
+</div>
