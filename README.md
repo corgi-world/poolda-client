@@ -19,13 +19,15 @@
 6. 그 후 다른 유저의 하루를 전달받고 해당 유저가 느꼈을 감정 상태와 적합한 감정 형용사를 선택한다.
 7. 상기의 과정을 통해 다양한 감정표현을 접하게 함으로써 유저의 감정표현불능증을 완화시키고자 한다. 또한, 다른 사람의 입장에서 생각해보며 타인의 감정을 파악할 수 있는 힘을 기르도록 하였다.
 
-## 사용 기술
+## 기술 스택
 
 - Front-End
   - React Native (Expo)
 - Back-End
   - Node.js (Express)
+  - MySQL
   - Google Cloud Platform
+- 배포
   - AWS EC2
 
 ## 경험
@@ -40,7 +42,7 @@
 
 ## 결과
 
-- 9개의 팀 중 1등으로 한국HCI학회 참여 지원 혜택을 받게 되었다.
+- 참여한 9개의 팀 중 1등으로 평가되어 한국HCI학회 참가 지원받게 되었다.
 - 서버 : https://github.com/corgi-world/poolda-server
 
   <img src="./poolda-preview.gif" width="35%" />
